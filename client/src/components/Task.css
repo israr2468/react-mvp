@@ -1,0 +1,10 @@
+.search-result {
+  padding: 8px 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.search-result:hover {
+  background-color: #efefef;
+}
