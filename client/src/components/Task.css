@@ -1,10 +1,25 @@
 .search-result {
-  padding: 8px 20px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 20px;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.search-result input[type="checkbox"] {
+  margin-right: 15px;
+}
+
+.search-result label {
+  margin-right: 10px;
+}
+
+.search-result button {
+  margin-left: auto;
 }
 
 .search-result:hover {
   background-color: #efefef;
+}
+
+.completed {
+  text-decoration: line-through;
 }

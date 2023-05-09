@@ -19,7 +19,7 @@ function App() {
     <div className="App">
       <div className="search-bar-container">
         <TaskBar tasks={tasks} setTasks={setTasks} />
-        <TaskList tasks={tasks} />
+        <TaskList tasks={tasks} setTasks={setTasks} />
       </div>
     </div>
   );

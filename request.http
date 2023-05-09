@@ -21,7 +21,7 @@ PATCH  http://localhost:3000/api/todos/5
 Content-Type: application/json
 
 {
-    "name": "Paramedic Refresher"
+    "name": "Refresher"
 }
 
 ### PUT
@@ -29,9 +29,9 @@ PUT http://localhost:3000/api/todos/3
 Content-Type: application/json
 
 {
-    "name": "Drive",
+    "name": "Cook",
     "due_date": "2023-04-14T07:00:00.000Z"
 }
 
 ### DELETE 
-DELETE http://localhost:3000/api/todos/1
+DELETE http://localhost:3000/api/todos/3
